@@ -1,0 +1,76 @@
+@import url(css/global/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: "Open Sans", 'Segoe UI', Tahoma, sans-serif;
+    background-color: #F3F4F6;
+}
+article {
+    font-size: 18px;
+    color: #111827;
+    min-width: 343px;
+  }
+  
+  .article h1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-bottom: 32px;
+  }
+  
+  .article h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-bottom: 24px;
+    margin-top: 56px;
+  }
+  
+  .article p {
+    margin: 24px 0;
+    line-height: 32px;
+    font-weight: 300;
+  }
+  
+  .article strong {
+    font-weight: 600;
+  }
+  
+  .article a {
+    font-weight: 400;
+    color: #BE185D;
+  }
+  
+  .article li {
+    font-weight: 300;
+    margin: 18px 0;
+    line-height: 32px;
+  }
+  
+  .article blockquote {
+    margin: 24px 0;
+    padding: 16px 18px;
+    line-height: 32px;
+    font-weight: 300;  
+    background-color: #D6D3D1;
+    border-radius: 8px;
+
+  }
+  
+  .article figure {
+    margin: 32px 0;
+    max-width: 768px;
+  }
+  
+  .article figcaption {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+  }
+  
+  .article img {
+    border-radius: 8px;
+    max-width: 100%;
+    margin: auto;
+  }
