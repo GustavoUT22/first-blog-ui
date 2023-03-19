@@ -101,4 +101,6 @@
     --background-dark: var(--gray-200);
     --background-darker: var(--gray-300);
     
-}
+    --white: var(--white-900);
+    --black: var(var(--black-900));
+}   

@@ -42,18 +42,18 @@
     margin-bottom: 144px;
 }
 
-.padd-section-sm {
+.section-padding-sm {
     padding: 32px 0px;
 }
 
-.padd-section, .padd-section-md {
+.section-padding, .section-padding-md {
     padding: 48px 0px;
 }
 
-.padd-section-sm {
+.section-padding-lg {
     padding: 96px 0px;
 }
 
-.padd-section-sm {
+.section-padding-xl {
     padding: 144px 0px;
 }

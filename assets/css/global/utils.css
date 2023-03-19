@@ -1,0 +1,40 @@
+.w-full {
+    width: 100%;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.overline {
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.color-primary {
+    color: var(--primary);
+}
+
+.bg-color-secondary-light {
+    background-color: var(--secondary-light);
+}
+
+.color-primary-dark {
+    color: var(--primary-dark);
+}
