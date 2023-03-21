@@ -6,6 +6,58 @@ body {
     background-color: #F3F4F6;
 }
 
+.about-title {
+  text-align: center;
+
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-top: 16px;
+}
+
+.about-card {
+  display: flex;
+  align-items: space-between;
+  gap: 1.2rem;
+}
+
+
+
+/* ========================= */
+
+.about-hoby  {
+  background-color: var(--gray-200);
+  
+  
+}
+
+.about-hoby-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  gap: 1.5rem;
+  padding: 0px 16px;
+  margin-top: 16px;
+  
+ 
+
+}
+
+.about-image {
+  height: 230px;
+  width: 100%;
+  border-radius: 8px;
+
+} 
+
+
+
+
+
+/* myhome */
+
 .article-summary {
  text-align: center;
 }
@@ -25,6 +77,8 @@ gap: 0.625;
 padding: 0.5rem;
 }
 
+
+/* myarticle */
 
 
 .article {

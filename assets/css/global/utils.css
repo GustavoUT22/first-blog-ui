@@ -38,3 +38,7 @@
 .color-primary-dark {
     color: var(--primary-dark);
 }
+.text-center {
+    display: flex;
+    justify-content: center;
+}
