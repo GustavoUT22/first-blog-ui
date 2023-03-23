@@ -38,7 +38,11 @@
 .color-primary-dark {
     color: var(--primary-dark);
 }
-.text-center {
+.title-center {
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.text-center {
+    text-align: center;
 }

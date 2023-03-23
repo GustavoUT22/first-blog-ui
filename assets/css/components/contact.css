@@ -1,0 +1,24 @@
+.contact-information {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 2rem;
+    padding: 0px 16px;
+    margin-top: 16px;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.help-option {
+    /* display: flex;
+    flex-direction: row;
+    align-content: space-between; */
+}
+
+.help-info {
+    position: relative;
+    left: 20px;
+    bottom: 6px;
+}
