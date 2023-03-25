@@ -1,3 +1,5 @@
+@import url(/assets/images/arrow-down.svg);
+
 
 .input {
     width: 100%;
@@ -43,7 +45,9 @@
     pointer-events: none;
     left: 0.75rem;
 }
-
+.input--error {
+    color: var(--error);
+}
 
 .input__content {
     position: relative;
@@ -51,3 +55,36 @@
     padding-inline-end: 0.75rem;
 }
 
+.input_message {
+    display: block;
+    margin: .25rem;
+    font-size: .875rem;
+    line-height: 1.31125rem;
+    font-weight: 400;
+}
+
+.input_message--help {
+    color: var(--gray-500);
+}
+
+.input_message--error {
+    color: var(--error);
+}
+
+.select  {
+    color: var(--gray-700);
+  width: 100%;
+  padding: .5rem .75rem;
+  border-radius: .375rem;
+  background-color: var(--white);
+  border: 1px solid var(--gray-700);
+
+  cursor: pointer;
+  padding-right: 2.5rem;
+
+  appearance: none;
+  background-image: url(/assets/images/icons/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: calc(100% - 12px);
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Input</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
+    
   </head>
   <body>
     <section class="section-md">
@@ -44,7 +45,43 @@
             placeholder="username"
           />
         </div>
+        <br>
+        <div>
+          <label class="overline text-xs light">
+            Input label
+          <input
+            class="input"
+            type="email"
+            name="username"
+            placeholder="username"
+          />
+        </label>
+        <span class="input_message input_message--help">Input help next</span>
+        <span class="input_message--error">Error message</span>
+        </div>
+        <div>
+        <label class="overline text-xs light">
+          Input label
+        <input
+          class="input input--error"
+          type="email"
+          name="username"
+          placeholder="username"
+        />
+        </label>
+        <span class="input_message input_message--error">Error message</span>
+        </div>
+
+        <br>
+        <h2 class="headings-xl semibold">Selected</h2>
+        <br>
+        <select class="select">
+          <option selected disabled hidden>Select one option</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+        </select>
       </div>
     </section>
+
   </body>
 </html>
