@@ -11,18 +11,35 @@
     <header class="header">
         <div class="container-lg">
           <nav class="navbar">
-            <a href="/index.html" class="navbar__logo headings-md semibold text-decoration-none">Testino Diprueba</a>
-            <ul class="navbar__links list-style-none">
+              <input type="checkbox" id="menu-mobile" />
+            <a
+              href="./index.html"
+              class="navbar__logo headings-md semibold text-decoration-none"
+              ><span>Gustavo Ugarte</span>
+              <label for="menu-mobile" id="toggle-close">
+                  <i class="ri-close-fill ri-sm"></i>
+              </label>
+              <label for="menu-mobile" id="toggle-open">
+                  <i class="ri-menu-fill ri-sm"></i>
+              </label>
+            </a>
+            
+            <ul class="expandable navbar__links list-style-none">
               <li>
-                <a href="#" class="link text-md semibold">Articles</a>
+                <a href="./projectPage.html" class="link text-md semibold">Articles</a>
               </li>
               <li>
-                <a href="#" class="link text-md semibold">Portafolio</a>
-              </li>
-                <a href="#" class="link text-md semibold">About</a>
+                <a href="./portafolio.html" class="link text-md semibold">Portafolio</a>
               </li>
               <li>
-                <a href="#" class="button button--primary button-sm text-decoration-none ml-4">Contact me</a>
+                <a href="./about.html" class="link text-md semibold">About</a>
+              </li>
+              <li>
+                <a
+                  href="./contact.html"
+                  class="button button--primary button-sm text-decoration-none ml-4"
+                  >Contact me</a
+                >
               </li>
             </ul>
           </nav>

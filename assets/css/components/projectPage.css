@@ -1,0 +1,126 @@
+.clivia-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 16px;
+}
+.clivia-card h1 {
+    margin-bottom: 20px;
+}
+
+.clivia-content a {
+    margin-top: 40px;
+}
+
+.width-button-page {
+    width: 250px;
+}
+
+.about-image-clivia {
+    height: 327px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+.clivia-card {
+    max-width: 576;
+}
+
+.heading-section-2 h2 {
+    margin-top: 16px;
+}
+
+.heading-section-2 span {
+    margin-top: 48px;
+}
+
+.summary-cards-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 16px;
+}
+
+.margin-top-16 {
+    margin-top: 1rem;
+}
+
+.margin-Y-64 {
+    margin: 4rem 0;
+}
+.margin-y {
+    padding: 20px 0 40px 0;
+}
+
+.background-2 {
+    background-color: var(--secondary-light);
+}
+
+.card-page {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-page h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.card-icon {
+   background-color: var(--secondary-lighter);
+   width: 3rem;
+   height: 3rem;
+   padding: 14px;
+   border-radius: 6px;
+}
+
+#icon-1 {
+    width: 24px;
+    height: 17px;
+}
+
+#icon-2 {
+    width: 20px;
+    height: 20px;
+}
+
+#icon-3 {
+    width: 23px;
+    height: 23px;
+}
+
+.heading-team h2 {
+    margin-bottom: 16px;
+}
+
+.heading-team span {
+    margin-bottom: 48px;
+}
+
+.summary-team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 16px;
+}
+
+.team-icons-color {
+    color: var(--gray-500);
+}
+
+.team-image {
+    height: 256px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.team-icon-svg {
+    width: 20px;
+    height: 20px;
+}
+.team-icon-color {
+    color: var(--gray-500);
+}
